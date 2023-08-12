@@ -1,0 +1,29 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  background: linear-gradient(197deg, #1a1a28, #1a1b34);
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+html, body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+*{
+  color: white;
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
+::-webkit-scrollbar-thumb {
+  width: 0px;
+}

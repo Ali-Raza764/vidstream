@@ -1,0 +1,112 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: sticky;
+  top: 0;
+  background: linear-gradient(90deg, #1a1a40, #1a1a46);
+  /* margin-top: 5px; */
+  padding: 10px;
+  border: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  z-index: 999;
+}
+
+.logo-container img {
+  height: 2em;
+  cursor: pointer;
+}
+
+.search {
+  width: max-content;
+  background-color: white;
+  height: max-content;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  padding: 11px 5px;
+  width: 33vw;
+  height: 1.6em;
+  background: white;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  font-size: 1em;
+  color: black;
+}
+
+input:-internal-autofill-selected {
+  background-color: white !important;
+}
+
+.input:focus {
+  outline: none;
+  border: none;
+}
+
+.search img {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home {
+  margin-right: 40px;
+  background-color: white;
+  border-radius: 50px;
+  padding: 5px;
+}
+.home img {
+  height: 2em;
+  cursor: pointer;
+}
+.account img {
+  height: 3em;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 540px) {
+  .logo-container img {
+    display: none;
+  }
+  .account img {
+    display: none;
+  }
+  .input {
+    width: 60vw;
+    height: max-content;
+  }
+  .home {
+    margin: 0 5px;
+    /* width: 15px; */
+  }
+  .home img{
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  .main {
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+  }
+  .video {
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index: 33;
+  }
+  /* .header {
+    margin: 0;
+    
+  } */
+}

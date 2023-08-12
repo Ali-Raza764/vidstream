@@ -1,0 +1,53 @@
+
+.channel-card {
+  padding: 3px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  width: 17rem; /* Adjust the min-width as needed */
+  flex-basis: 27%; /* Adjust the initial size as needed */
+  text-align: center;
+}
+.channel-avatar img {
+  border-radius: 50%;
+  height: 9rem;
+  cursor: pointer;
+}
+.channel-details {
+  text-align: center;
+}
+.channel-name {
+  font-size: 1.3rem;
+  font-family: monospace, "roboto";
+}
+.more-channel-detail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.separator {
+  background: gray;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin: 5px;
+}
+.channel-username {
+  font-size: 0.8rem;
+}
+.channel-description {
+  font-size: 0.8rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 24vw;
+}
+
+@media screen and (max-width: 700px) {
+  .channel-card{
+    min-width: 100vw;
+  }
+  .channel-description{
+    display: none;
+  }
+}

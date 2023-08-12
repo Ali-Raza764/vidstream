@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-wrap: wrap;
+    flex: 1;
+  }
+  .home-head{
+    display: block;
+    font-family: Segoe UI Semibold;
+    font-size: 1.3rem;
+    text-align: center;
+    margin: 0;
+  }
