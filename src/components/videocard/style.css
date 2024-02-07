@@ -4,8 +4,7 @@
   flex-direction: column;
   margin: 10px;
   min-width: 17rem; 
-  flex-basis: 27%; 
-  width: max-content;
+  max-width: 20rem;
   position: relative;
 }
 
